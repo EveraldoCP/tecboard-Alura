@@ -1,3 +1,5 @@
+
+/* Definição de fontes */
 @font-face {
     font-family: "Unbounded";
     src: url("../fonts/Unbounded-Bold.ttf")
@@ -16,14 +18,13 @@
     font-display: swap;
 }
 
-
-
-
+/* Reset */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* Estilo desktop */
 body{
     background-color: #0E1014;
     color: #FFFFFF;
@@ -81,4 +82,39 @@ section img{
     height: 446px;
     margin: 0 auto;
 }
+
+@media(max-width: 768px){
+
+    header img{
+        margin: 65px 0 0 60px;
+
+    }
+    p{
+        width: 648px;
+    }
+
+}
+
+@media(max-width: 375px){
+    header img{
+        margin: 32px 0 0 16px;
+        width: 209px;
+        height: 34px;
+        
+    }
+    h1{
+        font-size: 40px;
+
+    }
+    p{
+        font-size: 20px;
+        width: 340px;
+    }
+    section img{
+        width: 341px;
+        height: 230px ;
+    }
+}
+
+
 
