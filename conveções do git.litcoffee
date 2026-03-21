@@ -1,4 +1,4 @@
-conveções do git
+ conveções do git
 
 modificações e novas funcinalidades
     feat ou feature/descricao-da-modficacao
